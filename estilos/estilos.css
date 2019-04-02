@@ -1,0 +1,213 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+ body
+ {
+   font-family: 'Dancing Script';
+   background-color: #02010a;
+   width: 100%;
+ }
+#contenido
+{width: 100%;
+	margin: 0 auto;
+  background-color: #5b7989;
+  border-radius: 10px 10px 10px 10px;
+
+}
+header {
+ display: flex;
+ flex-flow: row wrap;
+
+
+}
+#tituloCabecera
+{
+color: white;
+text-shadow: 2px 2px 2px #02010a;
+font-size: 10x;
+width: 65%;
+text-indent: 15px;
+
+
+}
+#menuCabecera
+{
+padding-top: 35px;
+text-align: right;
+
+width: 30%;}
+
+#menuCabecera a
+
+  {
+  color: white;
+
+    }
+#menuCabecera .actual
+    {
+  text-decoration: none;
+
+      }
+#Imagenes
+{
+background: #82c3a6;
+width: 100%;
+display: flex;
+justify-content: center;
+
+}
+#Imagenes img
+{
+  width: 100%;
+  height: 100%
+
+}
+
+#ImagenesSecundarias
+{
+background-color: #d5c75f;
+display: flex;
+width: 100%;
+border: 1px solid black;
+justify-content: center;
+text-align: center;
+}
+
+
+#Columna1 img
+{
+width: 100%;
+height: auto;
+}
+
+#Columna1 img:hover
+{
+transform: rotate(10deg);
+
+}
+#Columna2 img
+{
+width: 100%;
+
+}
+#Columna2 img:hover
+{
+  transform: translate(5px, 20px);
+}
+
+.footer
+{
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+#contacto{
+width: 10%;
+}
+#Terminos
+{width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}
+#RedesSociales
+{
+width: 25%;
+}
+#Derechos img
+
+  {
+
+width: 25%;
+}
+article img{
+  width: 25px;
+}
+
+
+@media all and (max-width: 900px){
+  .footer{
+    background-color: #C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    text-align:center
+
+
+}
+  #contacto{
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  }
+
+  #Terminos{
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  }
+
+  #Terminos p{
+    width:50%;
+    display:block;
+    margin:0 auto;
+  }
+
+  #RedesSociales{
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  }
+  #Derechos{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #ImagenesSecundarias
+  {
+  background-color: #d5c75f;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: center;
+  text-align: center;
+  }
+  #Columna1 img
+  {
+  width: 100%;
+  height: auto;
+  order: 1;
+
+  }
+  #Columna2 img
+  {
+  width: 100%;
+
+  }
+
+#contenido{
+		width: 100%;
+		margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+	}
+
+  #tituloCabecera
+  {width: 80%;
+  font-style: 50px;
+
+  text-align: center;
+  }
+  #menuCabecera
+
+  {
+text-align: center;
+padding-left: 25%;
+  }
