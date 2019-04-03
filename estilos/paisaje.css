@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@-webkit-keyframes miSlideIn {
+0%{margin-top: 160%;}
+60%{margin-top: -5%;}
+100%{margin-top: 0;}
+}
+
 body
 {
 	font-family: 'Dancing Script';
@@ -16,7 +22,7 @@ body
 header {
  display: flex;
  flex-flow: row wrap;
-
+animation: miSlideIn 1s;
 
 }
 #tituloCabecera
@@ -58,6 +64,7 @@ background-color: #d5c75f;
 {
 -webkit-filter:blur(10px);
 filter: blur(10px);
+box-shadow:2px 2px 2px 2px;
 
 width: 100%;
 }
@@ -65,12 +72,14 @@ width: 100%;
 {
 width: 100%;
 -webkit-filter:grayscale(100%);
-filter: grayscale(100%);;
+filter: grayscale(100%);
+box-shadow:2px 2px 2px 2px;
 }
 #Columna3 img{
 width: 100%;
 -webkit-filter:sepia(90%);
 filter: sepia(90%);
+box-shadow:2px 2px 2px 2px;
 }
 
 #Bloque2
@@ -86,15 +95,18 @@ filter: sepia(90%);
 width: 100%;
 -webkit-filter:grayscale(100%);
 filter: grayscale(100%);
+box-shadow:2px 2px 2px 2px;
 }
 #Columna5 img
 {
 width: 100%;
+box-shadow:2px 2px 2px 2px;
 }#Columna6 img
 {
 width: 100%;
 -webkit-filter:grayscale(100%);
 filter: grayscale(100%);
+box-shadow:2px 2px 2px 2px;
 }
 
 

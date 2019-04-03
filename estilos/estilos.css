@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
+@-webkit-keyframes miSlideIn {
+0%{margin-top: 160%;}
+60%{margin-top: -5%;}
+100%{margin-top: 0;}
+}
  body
  {
    font-family: 'Dancing Script';
@@ -15,10 +20,11 @@
   border-radius: 10px 10px 10px 10px;
 
 }
+
 header {
  display: flex;
  flex-flow: row wrap;
-
+ animation: miSlideIn 1s;
 
 }
 #tituloCabecera
@@ -57,11 +63,10 @@ display: flex;
 justify-content: center;
 
 }
-#Imagenes img
+#Tah img
 {
   width: 100%;
-  height: 100%
-
+box-shadow:2px 2px 2px 2px;
 }
 
 #ImagenesSecundarias
@@ -79,6 +84,9 @@ text-align: center;
 {
 width: 100%;
 height: auto;
+box-shadow:2px 2px 2px 2px;
+
+
 }
 
 #Columna1 img:hover
@@ -89,11 +97,15 @@ transform: rotate(10deg);
 #Columna2 img
 {
 width: 100%;
+box-shadow: 2px,2px,2px,#02010a;
 
 }
 #Columna2 img:hover
 {
-  transform: translate(5px, 20px);
+  transform: translate(20px, 5px);
+  border: 2px solid;
+  box-shadow: 2px 2px 2px 2px #82c3a6;
+
 }
 
 .footer
